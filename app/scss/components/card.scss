@@ -22,6 +22,13 @@
   padding: rem(25);
   border-radius: rem(5);
   flex: 1;
+  transition: background 150ms ease-in-out;
+  cursor: pointer;
+
+  &:hover{
+    background: var(--dark-hover);
+  }
+
   &--facebook{
     border-top: rem(4) solid var(--facebook);
   }
@@ -43,6 +50,11 @@
     justify-content: center;
     align-items: center;
     margin-bottom: rem(28);
+  }
+
+  &__subtitle{
+    font-size: rem(14);
+    font-weight: 700;
   }
 
   &__icon{
@@ -87,7 +99,8 @@
     }
 
     &--small{
-
+      font-size: rem(32);
+      font-weight: 700;
     }
   }
 

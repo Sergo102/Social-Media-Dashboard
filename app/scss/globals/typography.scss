@@ -4,6 +4,12 @@ h1, h2, h3{
   margin-top: 0;
 }
 
+h2{
+  font-size: rem(24);
+  font-weight: 700;
+  margin-bottom: rem(24); 
+}
+
 h1{
   @include breakpoint(large){
     font-size: rem(28);
