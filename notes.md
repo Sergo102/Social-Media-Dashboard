@@ -1,6 +1,6 @@
 # Functional Requirements and Notes
 
-Light/Dark Mode toggle -- takes system by default, but can ovveride with toggle
+Light/Dark Mode toggle -- takes system by default, but can overide with toggle
 
 What HTML markup(accessible) --> 
   https://scottaohara.github.io/a11y_styled_form_controls/src/radio-button--switch/
