@@ -26,7 +26,7 @@
     flex-direction: row;
     position: relative;
     height: rem(24);
-    width: rem(52);
+    width: rem(48);
   }
 
   input[type='radio']{
@@ -65,7 +65,7 @@
 
   &__button{
     position: absolute;
-    left: rem(3);
+    left: rem(27);
     top: rem(3);
     right: 100%;
     width: rem(18);
@@ -76,12 +76,7 @@
   };
 
   #dark:checked ~ .toggle__button{
-    left: calc(20% - 8px);
-    right: 3px;
-  }
-
-  #system:checked ~ .toggle__button{
-    left: calc(70% - 20px);
+    left: calc(20% - 6px);
     right: 3px;
   }
 
